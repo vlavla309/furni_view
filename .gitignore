@@ -1,0 +1,11 @@
+.metadata/
+.recommenders/
+RemoteSystemTempFiles/
+Servers/
+META-INF/
+*.class
+pom.properties
+*.properties
+*.MF
+*.prefs
+
