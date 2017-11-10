@@ -14,7 +14,7 @@ body a {
 html, body{
    font-family: 'Arimo', sans-serif;
 	font-size: 100%;
-	background: #F4F7F9;
+	background: #FBF8EF;
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
@@ -96,7 +96,7 @@ h1,h2,h3,h4,h5,h6{
 }
 /*-- //top-header --*/
 .bottom-header {
-    background: #FFF;
+    background: #FBF8EF;
 }
 .top-nav{
 	background:#FFF;
@@ -113,11 +113,13 @@ h1,h2,h3,h4,h5,h6{
 }
 div#bs-example-navbar-collapse-1 {
     padding: 0;
+    background:#FBF8EF;
 }
 .top-nav ul{
     padding: 0;
     margin: 0 0 0 11em;
     float: none;
+    background:#FBF8EF;
 }
 .top-nav ul li{
     display: inline-block;
@@ -842,7 +844,7 @@ ul.bs-glyphicons-list {
 /*-- about --*/
 .about,.codes,.gallery,.blog,.contact,.login{
     padding: 4em 0 0 0;
-    background: #F9F9F9;
+    background: #FFF;
 }
 .about-heading {
     text-align: center;

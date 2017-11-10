@@ -20,6 +20,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <!--// css -->
+
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
@@ -76,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 		</div>
-		<div class="bottom-header">
+		<div class="bottom-header navBar">
 			<div class="container">
 				<div class="logo wow fadeInDown animated" data-wow-delay=".5s">
 					<h1><a href="index.html"><img src="images/logo.jpg" alt="" /></a></h1>
