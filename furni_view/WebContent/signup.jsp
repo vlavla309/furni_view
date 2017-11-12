@@ -19,12 +19,12 @@
                         <h1>Sign up</h1>
                       </div>
                       <div class="login-info">
-                        <form action="#" method="post">
+                        <form id="signupForm" action="signup" method="post">
                           <input type="text" class="user" name="email" placeholder="Email" required="">
+                          <input type="password" name="passwd" class="lock" placeholder="Password">
+                          <input type="password" name="passwd" class="lock" placeholder="Confirm Password">
                           <input type="text" class="user" name="name" placeholder="Name" required="">
-                          <input type="password" name="password" class="lock" placeholder="Password">
-                          <input type="password" name="password" class="lock" placeholder="Confirm Password">
-                          <input type="text" name="telephone" class="" placeholder="Telephone" required="">
+                          <input type="text" name="phone" class="" placeholder="Telephone" required="">
                           <input type="submit" name="Sign In" value="Sign up">
                         </form>
                       </div>
