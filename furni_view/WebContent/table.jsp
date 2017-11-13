@@ -52,7 +52,7 @@
 
 .box {
   width: 1140px;
-  height: 400px;
+  height: 700px;
   border-radius: 5px;
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
   background: #fbfcee;
@@ -106,7 +106,7 @@
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-
+/* 
 .title {
   position: absolute;
   left: 0;
@@ -147,7 +147,7 @@
             transform: rotate(360deg);
   }
 }
-
+*/
 
 </style>
 	
@@ -160,18 +160,18 @@
 				</div>
 				
 				<!-- 여기서 내용을 채운다 -->
-                        <p class="animatedtext">
+                <p class="animatedtext">
                   <span>
                     Coupon Confirm
                   </span>
                 </p>
-                <br><br>
-        <div class='box'>
-          <div class='wave -one'></div>
-  <div class='wave -two'></div>
-  <div class='wave -three'></div>
-
                 <br><br><br><br>
+<!--                 
+		        <div class='box'>
+		          <div class='wave -one'></div>
+		  		<div class='wave -two'></div>
+		  		<div class='wave -three'></div>
+ -->
                 <table class="table table-striped">
                   <caption></caption>
                   <thead>
@@ -192,21 +192,35 @@
                     <td>모릅니다.</td>
                   </tr>
                   <tr>
-                    <td>2</td>
+                    <td>12312</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
                     <td>데이터5</td>
                   </tr>
                   <tr>
-                    <td>3</td>
+                    <td>123123</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
                     <td>데이터5</td>
                   </tr>
                   <tr>
-                    <td>4</td>
+                    <td>123123</td>
+                    <td>데이터2</td>
+                    <td>데이터3</td>
+                    <td>데이터4</td>
+                    <td>데이터5</td>
+                  </tr>
+                  <tr>
+                    <td>123123</td>
+                    <td>데이터2</td>
+                    <td>데이터3</td>
+                    <td>데이터4</td>
+                    <td>데이터5</td>
+                  </tr>
+                  <tr>
+                    <td>123123</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
@@ -219,6 +233,13 @@
                     <td>데이터4</td>
                     <td>데이터5</td>
                   </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>데이터2</td>
+                    <td>데이터3</td>
+                    <td>데이터4</td>
+                    <td>데이터5</td>
+                  </tr>                  
                   </tbody>
                 </table>
                 </div>
