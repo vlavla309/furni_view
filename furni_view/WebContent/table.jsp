@@ -66,10 +66,10 @@
   opacity: .4;
   position: absolute;
   top: 3%;
-  left: 50%;
-  background: #fcfcf9;     /* #0af; */
-  width: 500px;
-  height: 500px;
+  left: 40%;
+  background: #ffff77;     /* #0af; */
+  width: 700px;
+  height: 140px;
   margin-left: -250px;
   margin-top: -250px;
   -webkit-transform-origin: 50% 48%;
@@ -77,18 +77,20 @@
   border-radius: 43%;
   -webkit-animation: drift 3000ms infinite linear;
           animation: drift 3000ms infinite linear;
+          
 }
 
 .wave.-three {
   -webkit-animation: drift 5000ms infinite linear;
           animation: drift 5000ms infinite linear;
+          background: #F4FC1C;
 }
 
 .wave.-two {
   -webkit-animation: drift 7000ms infinite linear;
           animation: drift 7000ms infinite linear;
   opacity: .1;
-  background: yellow;
+  background: #EAD94E;
 }
 
 .box:after {
