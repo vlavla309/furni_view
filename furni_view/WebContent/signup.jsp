@@ -19,14 +19,15 @@
                         <h1>Sign up</h1>
                       </div>
                       <div class="login-info">
-                        <form id="signupForm" action="signup" method="post">
-                          <input type="text" class="user" name="email" placeholder="Email" required="">
-                          <input type="password" name="passwd" class="lock" placeholder="Password">
-                          <input type="password" name="passwd" class="lock" placeholder="Confirm Password">
-                          <input type="text" class="user" name="name" placeholder="Name" required="">
-                          <input type="text" name="phone" class="" placeholder="Telephone" required="">
+                        <form id="signupForm" action="member/register" method="post">
+                          <input type="text" pattern="^[a-zA-Z0-9]{0,10}@[a-zA-z]{0,8}.[a-zA-z]{0,3}$" class="user" required name="email" placeholder="Email : bangrylol@gmail.com" required="dd">
+                          <input type="password" pattern="^[0-9]{4}$" required name="passwd" class="lock" placeholder="Password" onclick="openConfirmid(this.form)">
+                          <input type="password" pattern="^[0-9]{4}$" name="repasswd" class="lock" placeholder="Confirm Password">
+                          <input type="text" pattern="^[가-힣]{0,5}$" class="user" required name="name" placeholder="Name : 한글 5자리까지 " required="">
+                          <input type="text" pattern="[0-9]{10}[0-9]$"name="phone" class="" placeholder="Telephone : '-'는 제외하고 입력" required="">
                           <input type="submit" name="Sign In" value="Sign up">
                         </form>
+
                       </div>
                     </div>
                   </div>

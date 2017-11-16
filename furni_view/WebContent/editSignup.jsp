@@ -19,13 +19,13 @@
                         <h1>Modify</h1>
                       </div>
                       <div class="login-info">
-                        <form id="editSignupForm" action="editSignup" method="post">
+                        <form id="editSignupForm" action="member/edit" method="post">
                           <input type="text" class="user" name="email" placeholder="Email" readonly="readonly" required="">
                           <input type="password" name="passwd" class="lock" placeholder="Password">
                           <input type="password" name="passwd" class="lock" placeholder="Confirm Password">
-                          <input type="text" name="name" class="user" placeholder="Name" readonly="readonly" required="">
+                          <input type="text" name="name" class="user" placeholder="Name" required="">
                           <input type="text" name="phone" class="" placeholder="Telephone" required="">
-                          <input type="submit" name="Sign In" value="Confirmation">
+                          <input type="submit" name="Modify" value="Confirmation">
                         </form>
                       </div>
                     </div>

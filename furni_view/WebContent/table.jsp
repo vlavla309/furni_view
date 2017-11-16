@@ -176,7 +176,6 @@
                   <tr>
                     <th>serial</th>
                     <th>할인금액</th>
-                    <th>적용내용</th>
                     <th>유효기간</th>
                     <th>쿠폰상태</th>
                   </tr>
@@ -185,7 +184,6 @@
                   <tr>
                     <td>12123</td>
                     <td>10%</td>
-                    <td>모든상품</td>
                     <td>17.11.01 ~ 18.03.21</td>
                     <td>모릅니다.</td>
                   </tr>
@@ -194,49 +192,42 @@
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
-                    <td>데이터5</td>
                   </tr>
                   <tr>
                     <td>123123</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
-                    <td>데이터5</td>
                   </tr>
                   <tr>
                     <td>123123</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
-                    <td>데이터5</td>
                   </tr>
                   <tr>
                     <td>123123</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
-                    <td>데이터5</td>
                   </tr>
                   <tr>
                     <td>123123</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
-                    <td>데이터5</td>
                   </tr>
                   <tr>
                     <td>5</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
-                    <td>데이터5</td>
                   </tr>
                   <tr>
                     <td>5</td>
                     <td>데이터2</td>
                     <td>데이터3</td>
                     <td>데이터4</td>
-                    <td>데이터5</td>
                   </tr>                  
                   </tbody>
                 </table>
